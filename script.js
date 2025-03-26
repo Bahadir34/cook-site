@@ -3,7 +3,7 @@ console.log(searchForm);
 const cartItem = document.querySelector(".cart-items-container");
 const navbar = document.querySelector(".navbar");
 
-/* buttons - start */
+
 const searchBtn = document.querySelector("#search-btn");
 const cartBtn = document.querySelector("#cart-btn");
 const menuBtn = document.querySelector("#menu-btn");
@@ -35,3 +35,4 @@ document.addEventListener("click", function (e) {
 cartBtn.addEventListener("click", function () {
   cartItem.classList.toggle("active");
 });
+
